@@ -33,7 +33,9 @@ apt {
 }
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
     apt 'org.androidannotations:androidannotations:3.0+'
+
     compile 'org.androidannotations:androidannotations-api:3.0+'
     compile 'com.google.android.gms:play-services:4.2.42'
     compile 'com.android.support:appcompat-v7:19.+'
